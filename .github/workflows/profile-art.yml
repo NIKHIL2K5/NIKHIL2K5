@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "scripts/generate_profile_art.py"
+      - "nikhil-cyber-portrait-blue.png"
       - ".github/workflows/profile-art.yml"
 
 permissions:

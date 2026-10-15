@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 520 210" role="img" aria-label="GitHub stats placeholder">
 <defs><linearGradient id="card"><stop stop-color="#08192b"/><stop offset="1" stop-color="#111827"/></linearGradient></defs>
 <rect x="1" y="1" width="518" height="208" rx="14" fill="url(#card)" stroke="#164e73"/>
-<text x="24" y="34" fill="#00d9ff" font-family="monospace" font-size="14">nikhil@github ~ $ stats --year 2026</text>
-<text x="24" y="82" fill="#8b949e" font-family="monospace" font-size="12">CONTRIBUTIONS THIS YEAR</text>
-<text x="24" y="122" fill="#f0f6fc" font-family="monospace" font-size="34" font-weight="bold">140</text>
-<rect x="24" y="140" width="472" height="3" rx="2" fill="#1f2937"/>
-<rect x="24" y="140" width="33" height="3" rx="2" fill="url(#cyan)"/>
-<text x="24" y="174" fill="#8b949e" font-family="monospace" font-size="12">CURRENT STREAK</text>
-<text x="24" y="197" fill="#00d9ff" font-family="monospace" font-size="19" font-weight="bold">4 days</text>
-<text x="496" y="197" fill="#8b949e" font-family="monospace" font-size="10" text-anchor="end">AUTO-UPDATED DAILY</text></svg>
+<text x="24" y="34" fill="#00d9ff" font-family="monospace" font-size="14">nikhil@github ~ $ stats --live</text>
+<text x="24" y="82" fill="#e6edf3" font-family="monospace" font-size="14">Live stats will appear after the first run.</text>
+<text x="24" y="112" fill="#8b949e" font-family="monospace" font-size="12">Actions → Update Profile Art → Run workflow</text>
+<text x="24" y="184" fill="#00d9ff" font-family="monospace" font-size="12">AUTOMATIC DAILY REFRESH ENABLED</text>
+</svg>

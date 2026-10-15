@@ -1,19 +1,18 @@
 # Nikhil's Advanced GitHub Profile
 
 ## Package contents
-- `README.md`: terminal-inspired profile with a working typewriter intro, single contribution heatmap, icon badges, stats, and project-focus section. No portrait or duplicate contribution-snake/3D section is displayed.
-- `contrib-heatmap.svg` and `stats.svg`: custom SVG cards generated from GitHub's GraphQL API.
-- `scripts/generate_profile_art.py`: generates the contribution heatmap and stats card.
-- `.github/workflows/profile-art.yml`: daily/manual workflow to refresh the generated SVGs.
+- `README.md`: terminal-style design inspired by the reference, with your existing animated typewriter header, tech stack, statistics, and contribution sections. The large portrait image has been removed so it cannot leave a huge blank panel.
+- `nikhil-cyber-portrait-blue.png`: source image for the ASCII portrait generator.
+- `scripts/generate_profile_art.py`: generates a custom contribution heatmap, stats card, and ASCII portrait.
+- `.github/workflows/profile-art.yml`: daily/manual workflow to update the generated SVGs.
+- The 3D contribution and snake workflows are included if available from the earlier starter bundle.
 
 ## Setup
 1. Upload the contents of this ZIP into `NIKHIL2K5/NIKHIL2K5`, preserving `.github/workflows/` and `scripts/`.
-2. In **Settings → Actions → General**, enable **Read and write permissions** for workflows.
-3. Open **Actions → Update Profile Art → Run workflow**.
-4. The workflow refreshes `contrib-heatmap.svg` and `stats.svg` and commits them to `main`.
+2. Keep `README.md` and `nikhil-cyber-portrait-blue.png` in the repository root. The portrait GIF is no longer displayed by the README.
+3. In Settings → Actions → General, enable **Read and write permissions** for workflows.
+4. Open Actions → **Update Profile Art** → Run workflow.
+5. The workflow will generate `contrib-heatmap.svg`, `stats.svg`, and `nikhil-ascii.svg` and commit them to `main`.
+6. The 3D and snake graphics depend on their own workflows and published branches. If one is blank immediately after setup, run its matching workflow once and allow the generated branch to publish. The contribution heatmap has been given extra vertical space so the last row is not clipped.
 
-## Rendering notes
-- The header animation is supplied by `readme-typing-svg.demolab.com`.
-- Technology badges use Shields.io labels, so each technology name remains visible even if a logo glyph is unavailable.
-- The contribution heatmap is the only contribution grid in the README, avoiding duplicate visuals.
-- GitHub stats/streak cards rely on their respective public services and may occasionally be rate-limited or temporarily unavailable.
+The workflow uses GitHub's automatically provided `GITHUB_TOKEN`. Do not add a personal access token to the repository.
