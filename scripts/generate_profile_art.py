@@ -90,15 +90,3 @@ stats = f'''<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 52
 <text x="496" y="197" fill="#8b949e" font-family="monospace" font-size="10" text-anchor="end">AUTO-UPDATED DAILY</text></svg>'''
 (ROOT / "stats.svg").write_text(stats, encoding="utf-8")
 
-try:
-    from PIL import Image
-    photo = Image.open(ROOT / "nikhil-cyber-portrait-blue.png").convert("L").resize((72, 44))
-    chars = " .:-=+*#%@"
-    pixels = list(photo.getdata())
-    rows = []
-    for r in range(44):
-        line = "".join(chars[min(len(chars)-1, pixels[r*72+c]*len(chars)//256)] for c in range(72))
-        rows.append(f'<text x="10" y="{22+r*10}" fill="#42d9ff" font-family="monospace" font-size="8" xml:space="preserve">{escape(line)}</text>')
-    (ROOT / "nikhil-ascii.svg").write_text('<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 600 470"><rect width="600" height="470" rx="12" fill="#07111f" stroke="#164e73"/>' + "".join(rows) + '</svg>', encoding="utf-8")
-except ImportError:
-    print("Pillow unavailable; skipping ASCII portrait.")
