@@ -43,13 +43,13 @@
 
 ---
 
-<div align="center">
+<!-- <div align="center">
 
 ### `nikhil@github ~ $ ./contributions.sh`
 
 <img src="./contrib-heatmap.svg" width="100%" alt="Animated GitHub contribution heatmap, updated daily"/>
 
-</div>
+</div> -->
 
 ## `nikhil@github ~ $ cat about-me.md`
 
