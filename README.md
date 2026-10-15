@@ -366,8 +366,15 @@ $ tree -L 2 ./projects/ --dirsfirst
 
 <br/><br/>
 
-<img src="./footer-signature.svg" width="100%" alt="printf(&quot;Thanks for visiting. Let's build something meaningful.\n&quot;);" />
+<h1 align="center">
+  <b>Thanks for visiting! Let's build something meaningful. 🚀</b>
+</h1>
 
+<p align="center">
+  <b>Open to collaborate on Full-Stack, Mobile Apps, AI Tools &amp; Open Source.</b>
+  <br/>
+  <sub><b><code>BUILD</code> &nbsp;•&nbsp; <code>SHIP</code> &nbsp;•&nbsp; <code>INNOVATE</code> &nbsp;•&nbsp; <code>REPEAT</code></b></sub>
+</p>
 <br/><br/>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:3455FF,100:8A2BE2&height=110&section=footer" alt="Blue and purple footer" width="100%"/>
 </div>

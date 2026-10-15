@@ -1,43 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 115" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%">
   <defs>
-    <!-- Card Dark Gradient Background -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b1120"/>
-      <stop offset="50%" stop-color="#070c18"/>
-      <stop offset="100%" stop-color="#050811"/>
+    <!-- Background Gradient -->
+    <linearGradient id="cyberBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050914"/>
+      <stop offset="50%" stop-color="#0a1026"/>
+      <stop offset="100%" stop-color="#04060d"/>
     </linearGradient>
 
-    <!-- Animated Shifting Neon Border -->
-    <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Animated Shimmering Hologram Gradient -->
+    <linearGradient id="holoShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00d9ff">
-        <animate attributeName="stop-color" values="#00d9ff;#7c3aed;#3455ff;#00d9ff" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#00d9ff;#a855f7;#38bdf8;#00d9ff" dur="5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#8a2be2">
-        <animate attributeName="stop-color" values="#8a2be2;#00d9ff;#f43f5e;#8a2be2" dur="6s" repeatCount="indefinite"/>
+      <stop offset="35%" stop-color="#ffffff">
+        <animate attributeName="stop-color" values="#ffffff;#67e8f9;#e0e7ff;#ffffff" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="70%" stop-color="#7c3aed">
+        <animate attributeName="stop-color" values="#7c3aed;#00d9ff;#ec4899;#7c3aed" dur="5s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#00d9ff">
-        <animate attributeName="stop-color" values="#00d9ff;#7c3aed;#3455ff;#00d9ff" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#00d9ff;#a855f7;#38bdf8;#00d9ff" dur="5s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- Shimmer for Text -->
-    <linearGradient id="textGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4ade80"/>
-      <stop offset="50%" stop-color="#67e8f9">
-        <animate attributeName="stop-color" values="#67e8f9;#a78bfa;#67e8f9" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#4ade80"/>
+    <!-- Equalizer Gradient -->
+    <linearGradient id="eqGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00d9ff" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#00d9ff"/>
+      <stop offset="90%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
     </linearGradient>
 
-    <!-- Glowing Accent Beam Gradient -->
-    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d9ff" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#00d9ff;#7c3aed;#3455ff;#00d9ff" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3455ff" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#3455ff;#00d9ff;#7c3aed;#3455ff" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Photon Pulse Gradient -->
+    <linearGradient id="photon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00d9ff" stop-opacity="0"/>
       <stop offset="50%" stop-color="#00d9ff" stop-opacity="1"/>
       <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
     </linearGradient>
 
-    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -46,69 +68,171 @@
   </defs>
 
   <style>
-    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
-    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', 'Fira Code', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Outfit', Roboto, sans-serif; }
   </style>
 
-  <!-- Terminal Window Background & Animated Neon Border -->
-  <rect x="2" y="2" width="846" height="111" rx="12" fill="url(#bgGrad)" stroke="url(#neonBorder)" stroke-width="1.8"/>
+  <!-- Futuristic HUD Panel Frame -->
+  <rect x="2" y="2" width="846" height="156" rx="16" fill="url(#cyberBg)" stroke="url(#borderGrad)" stroke-width="1.6"/>
 
-  <!-- Top Window Header Bar -->
-  <line x1="2" y1="36" x2="848" y2="36" stroke="#172554" stroke-opacity="0.6" stroke-width="1"/>
+  <!-- Background Decorative Grid Lines -->
+  <g stroke="#1e293b" stroke-opacity="0.3" stroke-width="0.7">
+    <line x1="2" y1="40" x2="848" y2="40" stroke-dasharray="4,6"/>
+    <line x1="2" y1="120" x2="848" y2="120" stroke-dasharray="4,6"/>
+    <line x1="160" y1="2" x2="160" y2="158" stroke-dasharray="3,6"/>
+    <line x1="690" y1="2" x2="690" y2="158" stroke-dasharray="3,6"/>
+  </g>
 
-  <!-- macOS Window Dots -->
-  <circle cx="22" cy="19" r="5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
-  <circle cx="39" cy="19" r="5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
-  <circle cx="56" cy="19" r="5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
+  <!-- Floating Starfield / Ambient Cyber Particles -->
+  <g fill="#00d9ff">
+    <circle cx="210" cy="30" r="1.5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="340" cy="135" r="1.2">
+      <animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="510" cy="28" r="1.4">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="630" cy="130" r="1.6">
+      <animate attributeName="opacity" values="0.2;0.85;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g fill="#a855f7">
+    <circle cx="280" cy="128" r="1.5">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="570" cy="32" r="1.3">
+      <animate attributeName="opacity" values="0.9;0.1;0.9" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <!-- Window Title -->
-  <text class="mono" x="78" y="23" fill="#64748b" font-size="11" font-weight="600">
-    nikhil@workstation: <tspan fill="#38bdf8">~/farewell.c</tspan>
-  </text>
+  <!-- LEFT AUDIO / FREQUENCY SPECTRUM VISUALIZER -->
+  <g transform="translate(30, 95)">
+    <!-- 8 Animated Equalizer Bars -->
+    <rect x="0" y="-30" width="4.5" height="40" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="18;45;12;50;22;18" dur="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-8;-35;-2;-40;-12;-8" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="10" y="-20" width="4.5" height="30" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="32;14;48;20;42;32" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-22;-4;-38;-10;-32;-22" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="-40" width="4.5" height="50" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="45;20;55;35;18;45" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-35;-10;-45;-25;-8;-35" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="30" y="-15" width="4.5" height="25" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="20;50;28;45;15;20" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-10;-40;-18;-35;-5;-10" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="40" y="-35" width="4.5" height="45" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="38;18;52;24;46;38" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-28;-8;-42;-14;-36;-28" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="50" y="-25" width="4.5" height="35" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="24;54;18;48;30;24" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-14;-44;-8;-38;-20;-14" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="60" y="-45" width="4.5" height="55" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="50;25;40;60;22;50" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-40;-15;-30;-50;-12;-40" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="70" y="-28" width="4.5" height="38" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="30;45;15;50;34;30" dur="1.0s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-20;-35;-5;-40;-24;-20" dur="1.0s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Left Channel Label -->
+    <text class="mono" x="37" y="24" fill="#00d9ff" font-size="8.5" font-weight="700" letter-spacing="1.5" text-anchor="middle">CH_L // 96kHz</text>
+  </g>
 
-  <!-- Live Pulse Beacon & Status Pill -->
-  <g transform="translate(640, 9)">
-    <rect x="0" y="0" width="195" height="20" rx="10" fill="#06221d" stroke="#10b981" stroke-width="0.8"/>
+  <!-- RIGHT AUDIO / FREQUENCY SPECTRUM VISUALIZER -->
+  <g transform="translate(735, 95)">
+    <!-- 8 Animated Equalizer Bars -->
+    <rect x="0" y="-28" width="4.5" height="38" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="30;45;15;50;34;30" dur="1.0s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-20;-35;-5;-40;-24;-20" dur="1.0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="10" y="-45" width="4.5" height="55" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="50;25;40;60;22;50" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-40;-15;-30;-50;-12;-40" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="-25" width="4.5" height="35" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="24;54;18;48;30;24" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-14;-44;-8;-38;-20;-14" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="30" y="-35" width="4.5" height="45" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="38;18;52;24;46;38" dur="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-28;-8;-42;-14;-36;-28" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="40" y="-15" width="4.5" height="25" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="20;50;28;45;15;20" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-10;-40;-18;-35;-5;-10" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="50" y="-40" width="4.5" height="50" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="45;20;55;35;18;45" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-35;-10;-45;-25;-8;-35" dur="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="60" y="-20" width="4.5" height="30" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="32;14;48;20;42;32" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-22;-4;-38;-10;-32;-22" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="70" y="-30" width="4.5" height="40" rx="2" fill="url(#eqGrad)">
+      <animate attributeName="height" values="18;45;12;50;22;18" dur="1.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-8;-35;-2;-40;-12;-8" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Right Channel Label -->
+    <text class="mono" x="37" y="24" fill="#a855f7" font-size="8.5" font-weight="700" letter-spacing="1.5" text-anchor="middle">CH_R // 96kHz</text>
+  </g>
+
+  <!-- TOP BADGE: MISSION DISPATCH -->
+  <g transform="translate(425, 28)">
+    <rect x="-135" y="-13" width="270" height="24" rx="12" fill="#08142b" stroke="#00d9ff" stroke-width="0.9"/>
     <!-- Pulsing Radar Dot -->
-    <circle cx="14" cy="10" r="4" fill="#10b981">
-      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    <circle cx="-115" cy="-1" r="3.5" fill="#00d9ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="14" cy="10" r="6" fill="none" stroke="#10b981" stroke-width="1">
-      <animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+    <circle cx="-115" cy="-1" r="5" fill="none" stroke="#00d9ff" stroke-width="1">
+      <animate attributeName="r" values="3.5;7.5;3.5" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text class="sans" x="28" y="14" fill="#34d399" font-size="9.5" font-weight="700" letter-spacing="0.5">
-      STATUS: READY TO BUILD
+    <text class="mono" x="5" y="3" fill="#38bdf8" font-size="10" font-weight="700" letter-spacing="1.8" text-anchor="middle">
+      FINAL TRANSMISSION // 200 OK
     </text>
   </g>
 
-  <!-- Main Terminal Output: printf Command -->
-  <g transform="translate(24, 66)">
-    <!-- Shell Prompt Indicator -->
-    <text class="mono" x="0" y="0" font-size="14.5" font-weight="700">
-      <tspan fill="#00d9ff">➜</tspan>
-      <tspan fill="#64748b"> ~ </tspan>
-      <!-- Syntax Highlighted printf -->
-      <tspan fill="#c084fc">printf</tspan><tspan fill="#e2e8f0">(</tspan><tspan fill="url(#textGlow)" filter="url(#glow)">"Thanks for visiting. Let's build something meaningful.\n"</tspan><tspan fill="#e2e8f0">);</tspan>
-      <!-- Animated Blinking Cursor -->
+  <!-- MAIN CREATIVE STATEMENT WITH HOLOGRAPHIC SHIMMER & GLOW -->
+  <g transform="translate(425, 78)">
+    <text class="sans" x="0" y="0" text-anchor="middle" font-size="27" font-weight="900" letter-spacing="1" fill="url(#holoShimmer)" filter="url(#neonGlow)">
+      &quot;Thanks for visiting. Let&apos;s build something meaningful.&quot;
+    </text>
+  </g>
+
+  <!-- SUBTITLE CODE / TERMINAL BADGE -->
+  <g transform="translate(425, 107)">
+    <text class="mono" x="0" y="0" text-anchor="middle" font-size="12" font-weight="600" fill="#cbd5e1">
+      <tspan fill="#00d9ff">&lt;/&gt;</tspan>
+      <tspan fill="#64748b"> console.</tspan><tspan fill="#a855f7">log</tspan><tspan fill="#64748b">(</tspan><tspan fill="#4ade80">&quot;Ready for new challenges &amp; collaborations 🚀&quot;</tspan><tspan fill="#64748b">);</tspan>
       <tspan fill="#00d9ff"> █<animate attributeName="opacity" values="1;0;1" dur="0.85s" repeatCount="indefinite"/></tspan>
     </text>
   </g>
 
-  <!-- Secondary Terminal Line: Output / Subtitle -->
-  <g transform="translate(42, 94)">
-    <text class="mono" x="0" y="0" font-size="12" fill="#94a3b8">
-      <tspan fill="#3455ff">»</tspan>
-      <tspan fill="#cbd5e1"> Process returned </tspan>
-      <tspan fill="#10b981" font-weight="700">0 (SUCCESS)</tspan>
-      <tspan fill="#64748b"> — </tspan>
-      <tspan fill="#94a3b8">Open for collaborations, discussions &amp; high-impact products 🚀</tspan>
+  <!-- STATUS PILLS / BOTTOM SPEC STRIP -->
+  <g transform="translate(425, 134)">
+    <text class="mono" x="0" y="0" text-anchor="middle" font-size="10" fill="#64748b" letter-spacing="1.2">
+      <tspan fill="#10b981">● SYSTEM: IDLE</tspan>
+      <tspan fill="#475569"> │ </tspan>
+      <tspan fill="#00d9ff">PORT: 8080</tspan>
+      <tspan fill="#475569"> │ </tspan>
+      <tspan fill="#c084fc">LOCATION: NOIDA, IN</tspan>
+      <tspan fill="#475569"> │ </tspan>
+      <tspan fill="#f59e0b">STATUS: OPEN TO SHIP</tspan>
     </text>
   </g>
 
-  <!-- Bottom Animated Energy Beam -->
-  <line x1="100" y1="113" x2="300" y2="113" stroke="url(#beamGrad)" stroke-width="2.5" stroke-linecap="round">
-    <animate attributeName="x1" values="50;550;50" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="250;750;250" dur="4.5s" repeatCount="indefinite"/>
+  <!-- BOTTOM PHOTON LASER BEAM (Travels smoothly across the card base) -->
+  <line x1="80" y1="158" x2="320" y2="158" stroke="url(#photon)" stroke-width="2.5" stroke-linecap="round">
+    <animate attributeName="x1" values="20;560;20" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="240;780;240" dur="5s" repeatCount="indefinite"/>
   </line>
 </svg>
