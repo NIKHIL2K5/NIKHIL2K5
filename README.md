@@ -189,19 +189,154 @@
 
 <img src="./heading-projects.svg" width="100%" alt="nikhil@github ~ $ find ./projects -maxdepth 1" />
 
+<br/><br/>
+
+> ### 💡 Practical Engineering × Real-World Usefulness
+> *Architecting software across modern web stacks, cross-platform mobile apps, intelligent AI workflows, and resilient automation.*
+
 <br/>
 
-I like building software that combines practical engineering with real-world usefulness:
+<div align="center">
 
-| Focus | What I build |
-|---|---|
-| 🌐 **Full-stack products** | Modern web apps, APIs, authentication, database design, and deployment |
-| 📱 **Mobile apps** | Cross-platform applications with React Native and Flutter |
-| 🤖 **AI-powered tools** | AI/ML experiments and tools that improve developer workflows |
-| 🧰 **Automation** | Scripts, integrations, data workflows, and productivity tools |
-| 🌍 **Open source** | Useful documentation, bug fixes, tests, and feature contributions |
+```bash
+$ tree -L 2 ./projects/ --dirsfirst
+📁 projects/
+├── 🌐 full-stack/          # Web apps, scalable backends, auth, database architecture
+├── 📱 mobile/              # High-performance iOS & Android apps (Flutter, React Native)
+├── 🤖 ai-powered-tools/    # LLM agents, RAG pipelines, developer workflow enhancers
+├── 🧰 automation-devops/   # CI/CD pipelines, containerization, custom CLI utilities
+└── 🌍 open-source/         # Public libraries, documentation, tests & feature PRs
+```
 
-Explore my latest work in [my repositories](https://github.com/NIKHIL2K5?tab=repositories).
+</div>
+
+<br/>
+
+<!-- Modern Project Cards Grid -->
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <div align="left">
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/DOMAIN-FULL--STACK%20PRODUCTS-00D9FF?style=for-the-badge&logo=react&logoColor=black" alt="Full Stack Products Badge" />
+        </a>
+        <br/><br/>
+        <b>🌐 Modern Web Applications &amp; Cloud APIs</b>
+        <br/><br/>
+        <sub>Building end-to-end web products with seamless client interfaces, scalable server architectures, secure auth workflows, and optimized databases.</sub>
+        <br/><br/>
+        <b>Core Architecture:</b>
+        <br/>
+        <code>Next.js</code> <code>React</code> <code>Node.js</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>MongoDB</code>
+        <br/><br/>
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/View%20Web%20Projects-00D9FF?style=flat-square&logo=github&logoColor=black" alt="View Web Projects" />
+        </a>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="left">
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/DOMAIN-MOBILE%20APPS-7C3AED?style=for-the-badge&logo=flutter&logoColor=white" alt="Mobile Apps Badge" />
+        </a>
+        <br/><br/>
+        <b>📱 Cross-Platform Mobile Applications</b>
+        <br/><br/>
+        <sub>Crafting fluid, native-feeling mobile experiences for iOS and Android with high frame rates, offline-first sync, and intuitive micro-interactions.</sub>
+        <br/><br/>
+        <b>Core Architecture:</b>
+        <br/>
+        <code>Flutter</code> <code>Dart</code> <code>React Native</code> <code>Android Studio</code> <code>Firebase</code>
+        <br/><br/>
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/View%20Mobile%20Apps-7C3AED?style=flat-square&logo=github&logoColor=white" alt="View Mobile Apps" />
+        </a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="left">
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/DOMAIN-AI%20POWERED%20TOOLS-3455FF?style=for-the-badge&logo=openai&logoColor=white" alt="AI Powered Tools Badge" />
+        </a>
+        <br/><br/>
+        <b>🤖 Intelligent AI/ML Tools &amp; Agents</b>
+        <br/><br/>
+        <sub>Engineering generative AI prototypes, LLM agents, semantic search tools, and machine learning pipelines that elevate productivity.</sub>
+        <br/><br/>
+        <b>Core Architecture:</b>
+        <br/>
+        <code>Python</code> <code>PyTorch</code> <code>TensorFlow</code> <code>LLM Integrations</code> <code>Scikit-Learn</code>
+        <br/><br/>
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/View%20AI%20Tools-3455FF?style=flat-square&logo=github&logoColor=white" alt="View AI Tools" />
+        </a>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="left">
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/DOMAIN-AUTOMATION%20%26%20SYSTEMS-10B981?style=for-the-badge&logo=gnubash&logoColor=white" alt="Automation Badge" />
+        </a>
+        <br/><br/>
+        <b>🧰 Developer Automation &amp; DevOps Pipelines</b>
+        <br/><br/>
+        <sub>Developing custom developer utilities, CI/CD automation, system scripts, container configurations, and data transformation workflows.</sub>
+        <br/><br/>
+        <b>Core Architecture:</b>
+        <br/>
+        <code>Docker</code> <code>Linux / Bash</code> <code>GitHub Actions</code> <code>Postman</code> <code>Vercel</code>
+        <br/><br/>
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/View%20Automations-10B981?style=flat-square&logo=github&logoColor=white" alt="View Automations" />
+        </a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <div align="left">
+        <a href="https://github.com/NIKHIL2K5" target="_blank">
+          <img src="https://img.shields.io/badge/ECOSYSTEM-OPEN%20SOURCE%20%26%20COMMUNITY-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Open Source Badge" />
+        </a>
+        <br/><br/>
+        <b>🌍 Open Source &amp; Community Contributions</b>
+        <br/><br/>
+        <sub>Committed to open engineering: authoring developer documentation, resolving community issues, testing edge cases, and pushing feature enhancements.</sub>
+        <br/><br/>
+        <b>Focus Areas:</b>
+        <br/>
+        <code>Bug Fixes</code> <code>Technical Documentation</code> <code>Unit &amp; E2E Testing</code> <code>Developer Tooling</code> <code>Code Reviews</code>
+        <br/><br/>
+        <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+          <img src="https://img.shields.io/badge/Explore%20Open%20Source%20Repositories-FF6B6B?style=flat-square&logo=git&logoColor=white" alt="Explore Open Source" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+<!-- Quick Dispatcher / Action Bar -->
+<p align="center">
+  <a href="https://github.com/NIKHIL2K5?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/📂%20BROWSE%20ALL%20REPOSITORIES-00D9FF?style=for-the-badge&logoColor=black" alt="Browse All Repositories" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/NIKHIL2K5?tab=stars" target="_blank">
+    <img src="https://img.shields.io/badge/⭐%20STARRED%20PROJECTS-7C3AED?style=for-the-badge&logoColor=white" alt="Starred Projects" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank">
+    <img src="https://img.shields.io/badge/🤝%20LET'S%20COLLABORATE-3455FF?style=for-the-badge&logoColor=white" alt="Let's Collaborate" />
+  </a>
+</p>
+
+</div>
 
 <br/>
 
