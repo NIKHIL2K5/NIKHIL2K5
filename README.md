@@ -3,34 +3,41 @@
 <!-- Typewriter Hero Introduction -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Nikhil+%F0%9F%91%8B;Full-Stack+Developer+%7C+Mobile+%7C+AI%2FML;Building+products%2C+not+just+projects;Open-Source+Contributor+%7C+Freelancer" alt="Animated introduction" />
 
-</div>
+<br/><br/>
 
-<!-- Interactive Terminal: whoami -->
-<details open>
-<summary><b><code>⚡ nikhil@github ~ $ whoami</code></b> <i>(click to run / toggle)</i></summary>
-
-<br/>
-
-<div align="center">
-  <img src="./whoami.svg" width="100%" alt="nikhil@github ~ $ whoami" />
-</div>
-
-</details>
-
-<div align="center">
+<!-- Advanced Animated "Who Am I" Heading -->
+<img src="./whoami-heading.svg" width="100%" alt="Who Am I" />
 
 <br/>
 
-<!-- Professional Social Profile Badges -->
-<a href="https://github.com/NIKHIL2K5" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.instagram.com/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-<a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+<!-- Creative Terminal Window -->
+<img src="./whoami.svg" width="100%" alt="whoami terminal card" />
 
 <br/><br/>
 
-<!-- Profile Visitors Counter -->
-<img src="https://komarev.com/ghpvc/?username=NIKHIL2K5&style=for-the-badge&color=00D9FF&labelColor=0D1117&label=PROFILE+VIEWS" alt="Profile views"/>
+<!-- Modern App-Style Squircle Social Profile Icons -->
+<p align="center">
+  <a href="https://github.com/NIKHIL2K5" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github&theme=dark" width="50" height="50" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50" height="50" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/nikhil2k5/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="50" height="50" alt="Instagram" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank">
+    <img src="https://skillicons.dev/icons?i=youtube&theme=dark" width="50" height="50" alt="YouTube" />
+  </a>
+</p>
+
+<!-- Profile Views Counter -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=NIKHIL2K5&style=for-the-badge&color=00D9FF&label=PROFILE+VIEWS" alt="Profile views"/>
+</p>
 
 </div>
 
@@ -139,11 +146,23 @@ Explore my latest work in [my repositories](https://github.com/NIKHIL2K5?tab=rep
 
 <div align="center">
 
-<a href="https://github.com/NIKHIL2K5" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.instagram.com/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-<a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
-<a href="mailto:knikhil2k5@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<p align="center">
+  <a href="https://github.com/NIKHIL2K5" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github&theme=dark" width="50" height="50" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50" height="50" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/nikhil2k5/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="50" height="50" alt="Instagram" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank">
+    <img src="https://skillicons.dev/icons?i=youtube&theme=dark" width="50" height="50" alt="YouTube" />
+  </a>
+</p>
 
 <br/><br/>
 
