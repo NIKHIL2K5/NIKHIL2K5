@@ -1,24 +1,31 @@
 <div align="center">
 
-<!-- Waving Gradient Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:3455FF,100:8A2BE2&height=180&section=header&text=NIKHIL%20KUMAR&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Mobile%20%7C%20AI%2FML&descAlignY=60&descSize=18" width="100%" alt="Header Banner" />
+<!-- Typewriter Hero Introduction -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Nikhil+%F0%9F%91%8B;Full-Stack+Developer+%7C+Mobile+%7C+AI%2FML;Building+products%2C+not+just+projects;Open-Source+Contributor+%7C+Freelancer" alt="Animated introduction" />
 
-<!-- Modern Interactive Terminal Window Header -->
-<img src="./terminal-header.svg" width="100%" alt="nikhil@github ~ $ whoami" />
+</div>
+
+<!-- Interactive Terminal: whoami -->
+<details open>
+<summary><b><code>⚡ nikhil@github ~ $ whoami</code></b> <i>(click to run / toggle)</i></summary>
 
 <br/>
 
-<!-- Modern Animated Dynamic Punchline -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Building+impactful+products%2C+not+just+projects+%F0%9F%9A%80;Turning+complex+ideas+into+clean%2C+scalable+code+%E2%9C%A8;Full-Stack+%7C+Mobile+Apps+%7C+Applied+AI%2FML+%F0%9F%92%BB;Open+Source+Contributor+%26+Freelancer+%F0%9F%8C%9F" alt="Dynamic Typing Intro" />
+<div align="center">
+  <img src="./whoami.svg" width="100%" alt="nikhil@github ~ $ whoami" />
+</div>
 
-<br/><br/>
+</details>
 
-<!-- Modern Sleek Social Badges -->
+<div align="center">
+
+<br/>
+
+<!-- Professional Social Profile Badges -->
 <a href="https://github.com/NIKHIL2K5" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://www.instagram.com/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
 <a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
-<a href="mailto:knikhil2k5@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 <br/><br/>
 
