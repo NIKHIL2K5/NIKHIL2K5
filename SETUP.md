@@ -5,6 +5,8 @@
 - `whoami-heading.svg`: animated gradient text and glowing underline header for `WHO AM I`.
 - `whoami.svg`: responsive macOS dark terminal card with commands (`whoami`, `cat mission.json`, `./status.sh`), live status, and glowing cursor.
 - `youtube.svg`: modern YouTube squircle app icon matching the skillicons styling.
+- `heading-about.svg`: terminal window bar header for `cat about-me.md`.
+- `heading-tech.svg`: terminal window bar header for `ls tech-stack/`.
 - `nikhil-cyber-portrait-blue.png`: source image for the ASCII portrait generator.
 - `scripts/generate_profile_art.py`: generates a custom contribution heatmap, stats card, and ASCII portrait.
 - `.github/workflows/profile-art.yml`: daily/manual workflow to update the generated SVGs.

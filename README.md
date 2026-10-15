@@ -43,15 +43,13 @@
 
 ---
 
-<!-- <div align="center">
 
-### `nikhil@github ~ $ ./contributions.sh`
 
-<img src="./contrib-heatmap.svg" width="100%" alt="Animated GitHub contribution heatmap, updated daily"/>
+<br/>
 
-</div> -->
+<img src="./heading-about.svg" width="100%" alt="nikhil@github ~ $ cat about-me.md" />
 
-## `nikhil@github ~ $ cat about-me.md`
+<br/><br/>
 
 I'm **Nikhil**, a developer and product builder who enjoys taking ideas from a rough sketch to useful software. I build across **web, mobile, and AI/ML**, contribute to open source, and work as a freelancer.
 
@@ -63,9 +61,15 @@ I'm **Nikhil**, a developer and product builder who enjoys taking ideas from a r
 - 💼 **Freelance:** Turning product ideas into practical software
 - 🏢 **Experience:** Former intern at **Eglogics**, a Noida-based company
 
+<br/>
+
 > `BUILD → LEARN → CONTRIBUTE → SHIP → REPEAT`
 
-## `nikhil@github ~ $ ls tech-stack/`
+<br/>
+
+<img src="./heading-tech.svg" width="100%" alt="nikhil@github ~ $ ls tech-stack/" />
+
+<br/>
 
 <div align="center">
 
