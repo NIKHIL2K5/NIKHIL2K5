@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 150" role="img" aria-label="GitHub contribution heatmap placeholder">
+<defs><linearGradient id="bg"><stop stop-color="#071426"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>
+<rect width="900" height="150" rx="12" fill="url(#bg)" stroke="#173451"/>
+<text x="26" y="35" fill="#00d9ff" font-family="monospace" font-size="14">nikhil@github:~$ contributions --year current</text>
+<text x="26" y="76" fill="#e6edf3" font-family="monospace" font-size="14">Your live contribution heatmap is ready to generate.</text>
+<text x="26" y="103" fill="#8b949e" font-family="monospace" font-size="12">Run Actions → Update Profile Art → Run workflow</text>
+</svg>
