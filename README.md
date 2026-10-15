@@ -153,7 +153,11 @@
 
 </div>
 
-## `nikhil@github ~ $ ./stats.sh`
+<br/>
+
+<img src="./heading-stats.svg" width="100%" alt="nikhil@github ~ $ ./stats.sh" />
+
+<br/>
 
 <div align="center">
 
@@ -171,14 +175,22 @@
 
 </div>
 
-## `nikhil@github ~ $ ./contributions-3d.sh`
+<br/>
+
+<img src="./heading-3d.svg" width="100%" alt="nikhil@github ~ $ ./contributions-3d.sh" />
+
+<br/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/profile-output/profile-green-animate.svg" alt="3D GitHub contribution landscape" width="100%"/>
 <img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/output/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution snake" width="100%"/>
 </div>
 
-## `nikhil@github ~ $ find ./projects -maxdepth 1`
+<br/>
+
+<img src="./heading-projects.svg" width="100%" alt="nikhil@github ~ $ find ./projects -maxdepth 1" />
+
+<br/>
 
 I like building software that combines practical engineering with real-world usefulness:
 
@@ -192,7 +204,11 @@ I like building software that combines practical engineering with real-world use
 
 Explore my latest work in [my repositories](https://github.com/NIKHIL2K5?tab=repositories).
 
-## `nikhil@github ~ $ ./links.sh`
+<br/>
+
+<img src="./heading-links.svg" width="100%" alt="nikhil@github ~ $ ./links.sh" />
+
+<br/>
 
 <div align="center">
 

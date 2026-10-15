@@ -7,7 +7,10 @@
 - `youtube.svg`: modern YouTube squircle app icon matching the skillicons styling.
 - `heading-about.svg`: terminal window bar header for `cat about-me.md`.
 - `heading-tech.svg`: terminal window bar header for `ls tech-stack/`.
-- `about-me-card.svg`: interactive visual dashboard card for the about-me section featuring domain cards and workflow loop.
+- `heading-stats.svg`: terminal window bar header for `./stats.sh`.
+- `heading-3d.svg`: terminal window bar header for `./contributions-3d.sh`.
+- `heading-projects.svg`: terminal window bar header for `find ./projects -maxdepth 1`.
+- `heading-links.svg`: terminal window bar header for `./links.sh`.
 - `nikhil-cyber-portrait-blue.png`: source image for the ASCII portrait generator.
 - `scripts/generate_profile_art.py`: generates a custom contribution heatmap, stats card, and ASCII portrait.
 - `.github/workflows/profile-art.yml`: daily/manual workflow to update the generated SVGs.
