@@ -163,11 +163,11 @@
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=NIKHIL2K5&show_icons=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3&cache_seconds=1800" alt="GitHub Stats" width="100%"/></td>
-<td width="50%" valign="top"><img src="https://streak-stats.demolab.com?user=NIKHIL2K5&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideLabels=E6EDF3&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&cache_seconds=1800" alt="GitHub Streak Stats" width="100%"/></td>
+<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=NIKHIL2K5&show_icons=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3&cache_seconds=600" alt="GitHub Stats" width="100%"/></td>
+<td width="50%" valign="top"><img src="https://streak-stats.demolab.com?user=NIKHIL2K5&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideLabels=E6EDF3&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&cache_seconds=600" alt="GitHub Streak Stats" width="100%"/></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NIKHIL2K5&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=E6EDF3&hide=XSLT,Cython&cache_seconds=1800" alt="Most Used Languages" width="100%"/></td>
+<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NIKHIL2K5&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=E6EDF3&hide=XSLT,Cython&cache_seconds=600" alt="Most Used Languages" width="100%"/></td>
 <td width="50%" valign="top"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NIKHIL2K5&theme=github_dark" alt="Repositories per Language" width="100%"/></td>
 </tr>
 </table>
@@ -181,7 +181,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/profile-output/profile-green-animate.svg" alt="3D GitHub contribution landscape" width="100%"/>
+<img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/profile-output/profile-night-rainbow.svg" alt="3D GitHub contribution landscape" width="100%"/>
 <img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/output/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution snake" width="100%"/>
 </div>
 
