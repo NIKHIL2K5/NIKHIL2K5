@@ -4,7 +4,10 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
-USERNAME = os.environ.get("USERNAME", "NIKHIL2K5")
+raw_user = os.environ.get("GH_USERNAME") or os.environ.get("TARGET_USERNAME") or os.environ.get("USERNAME")
+if not raw_user or raw_user.lower() == "knikh":
+    raw_user = "NIKHIL2K5"
+USERNAME = raw_user
 TOKEN = os.environ.get("GITHUB_TOKEN")
 if not TOKEN:
     raise SystemExit("GITHUB_TOKEN is required.")
