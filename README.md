@@ -18,25 +18,25 @@
 <!-- Modern App-Style Squircle Social Profile Icons -->
 <p align="center">
   <a href="https://github.com/NIKHIL2K5" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github&theme=dark" width="50" height="50" alt="GitHub" />
+    <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50" height="50" alt="LinkedIn" />
+    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="48" height="48" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/nikhil2k5/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="50" height="50" alt="Instagram" />
+    <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="48" height="48" alt="Instagram" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank">
-    <img src="https://skillicons.dev/icons?i=youtube&theme=dark" width="50" height="50" alt="YouTube" />
+    <img src="./youtube.svg" width="48" height="48" alt="YouTube" />
   </a>
 </p>
 
 <!-- Profile Views Counter -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NIKHIL2K5&style=for-the-badge&color=00D9FF&label=PROFILE+VIEWS" alt="Profile views"/>
+  <img src="https://hits.sh/github.com/NIKHIL2K5.svg?style=for-the-badge&label=PROFILE%20VIEWS&color=00d9ff&labelColor=0d1117" alt="Profile views"/>
 </p>
 
 </div>
@@ -148,19 +148,19 @@ Explore my latest work in [my repositories](https://github.com/NIKHIL2K5?tab=rep
 
 <p align="center">
   <a href="https://github.com/NIKHIL2K5" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github&theme=dark" width="50" height="50" alt="GitHub" />
+    <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50" height="50" alt="LinkedIn" />
+    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="48" height="48" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/nikhil2k5/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="50" height="50" alt="Instagram" />
+    <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="48" height="48" alt="Instagram" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank">
-    <img src="https://skillicons.dev/icons?i=youtube&theme=dark" width="50" height="50" alt="YouTube" />
+    <img src="./youtube.svg" width="48" height="48" alt="YouTube" />
   </a>
 </p>
 
