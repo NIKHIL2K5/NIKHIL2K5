@@ -2,7 +2,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Nikhil+%F0%9F%91%8B;Full-Stack+Developer+%7C+Mobile+%7C+AI%2FML;Building+products%2C+not+just+projects;Open-Source+Contributor+%7C+Freelancer" alt="Animated introduction" />
 
-<img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/main/nikhil-blue-line-scan-portrait.gif" alt="Nikhil's portrait with a blue line-by-line scanning animation" width="100%" />
 
 <h3><code>nikhil@github ~ $ whoami</code></h3>
 
@@ -49,23 +48,40 @@ I'm **Nikhil**, a developer and product builder who enjoys taking ideas from a r
 
 **Frontend & UI**
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,tailwind,sass" alt="Frontend technologies"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js and Tailwind CSS"/>
+
+<p>
+<img src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js"/>
+<img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white" alt="Sass"/>
+</p>
 
 **Backend, APIs & databases**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,prisma,mysql,postgres,firebase,redis" alt="Backend and database technologies"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres,firebase,redis" alt="Node.js, Express, MongoDB, MySQL, PostgreSQL, Firebase and Redis"/>
+
+<p>
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma ORM"/>
+</p>
 
 **Mobile development**
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,react,androidstudio" alt="Mobile development technologies"/>
+<img src="https://skillicons.dev/icons?i=flutter,dart,react" alt="Flutter, Dart and React Native"/>
+
+<p>
+<img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" alt="Android Studio"/>
+</p>
 
 **AI / ML & data**
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,numpy,pandas,jupyter" alt="AI ML and data technologies"/>
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,numpy,pandas" alt="Python, PyTorch, TensorFlow, NumPy and pandas"/>
+
+<p><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/></p>
 
 **Languages, tools & deployment**
 
-<img src="https://skillicons.dev/icons?i=cpp,java,git,github,docker,vercel,render,vscode" alt="Programming languages and developer tools"/>
+<img src="https://skillicons.dev/icons?i=cpp,java,git,github,docker,vercel,vscode" alt="C++, Java, Git, GitHub, Docker, Vercel and VS Code"/>
+
+<p><img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=0D1117" alt="Render"/></p>
 
 </div>
 
@@ -75,12 +91,11 @@ I'm **Nikhil**, a developer and product builder who enjoys taking ideas from a r
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="./nikhil-ascii.svg" alt="Nikhil's blue ASCII portrait, generated from his photo" width="100%"/></td>
 <td width="50%" valign="top"><img src="./stats.svg" alt="Custom contribution and streak stats, updated daily" width="100%"/></td>
+<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=NIKHIL2K5&show_icons=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3" alt="GitHub stats" width="100%"/></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api?username=NIKHIL2K5&show_icons=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3" alt="GitHub stats" width="100%"/></td>
-<td width="50%" valign="top"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NIKHIL2K5&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=E6EDF3" alt="Most used languages" width="100%"/></td>
+<td colspan="2" valign="top"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NIKHIL2K5&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=E6EDF3" alt="Most used languages" width="100%"/></td>
 </tr>
 </table>
 

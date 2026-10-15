@@ -54,7 +54,7 @@ while day_map.get(cursor, 0) > 0:
     cursor -= datetime.timedelta(days=1)
 
 cell, gap, left, top = 11, 4, 26, 45
-width, height = left * 2 + len(weeks) * (cell + gap), 145
+width, height = left * 2 + len(weeks) * (cell + gap), 170
 svg = [
  f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {width} {height}" role="img" aria-label="GitHub contributions for {escape(USERNAME)}">',
  '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>',
