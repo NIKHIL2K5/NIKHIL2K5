@@ -51,19 +51,65 @@
 
 <br/><br/>
 
-I'm **Nikhil**, a developer and product builder who enjoys taking ideas from a rough sketch to useful software. I build across **web, mobile, and AI/ML**, contribute to open source, and work as a freelancer.
-
-- 🧩 **Full-stack:** MERN, TypeScript, REST APIs, SQL, PostgreSQL
-- 📱 **Mobile:** React Native and Flutter
-- 🤖 **AI/ML:** AI-powered applications, ML experiments, and developer tools
-- 🚀 **Product building:** Prototyping, shipping, deployment, and iteration
-- 🌱 **Open source:** Documentation, bug fixes, tests, and collaborative development
-- 💼 **Freelance:** Turning product ideas into practical software
-- 🏢 **Experience:** Former intern at **Eglogics**, a Noida-based company
+> ### 💡 Developer & Product Builder
+> I'm **Nikhil**, a developer and product builder who enjoys taking ideas from a rough sketch to useful software. I build across **web, mobile, and AI/ML**, contribute to open source, and work as a freelancer.
 
 <br/>
 
-> `BUILD → LEARN → CONTRIBUTE → SHIP → REPEAT`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧩 Full-Stack Engineering</h4>
+      <code>MERN</code> <code>TypeScript</code> <code>REST APIs</code> <code>SQL</code> <code>PostgreSQL</code>
+      <br/><br/>
+      <sub>Architecting scalable backends, database schemas, and fluid, responsive web applications.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>📱 Mobile App Development</h4>
+      <code>React Native</code> <code>Flutter</code> <code>Cross-Platform</code> <code>Android</code>
+      <br/><br/>
+      <sub>Crafting intuitive, performant, and native-feeling mobile applications for iOS &amp; Android.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 AI / Machine Learning</h4>
+      <code>AI Applications</code> <code>ML Experiments</code> <code>Developer Tools</code> <code>LLMs</code>
+      <br/><br/>
+      <sub>Building intelligent AI-powered solutions, ML prototypes, and developer workflow automation.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🚀 Product Building</h4>
+      <code>Rapid Prototyping</code> <code>Shipping</code> <code>Deployment</code> <code>Iteration</code>
+      <br/><br/>
+      <sub>Fast-paced MVP engineering, continuous deployment, and transforming ideas into live products.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🌱 Open Source &amp; Freelance</h4>
+      <code>Open Source</code> <code>Documentation</code> <code>Bug Fixes</code> <code>Freelance</code>
+      <br/><br/>
+      <sub>Actively contributing to open codebases and delivering production-ready freelance software.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏢 Industry Experience</h4>
+      <code>Eglogics</code> <code>Former Intern</code> <code>Noida, India</code>
+      <br/><br/>
+      <sub>Hands-on industry experience building commercial software and collaborating in engineering teams.</sub>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│   BUILD   ➜   LEARN   ➜   CONTRIBUTE   ➜   SHIP   ➜   REPEAT       │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
 
 <br/>
 
