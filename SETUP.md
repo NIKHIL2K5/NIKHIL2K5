@@ -11,6 +11,7 @@
 - `heading-3d.svg`: terminal window bar header for `./contributions-3d.sh`.
 - `heading-projects.svg`: terminal window bar header for `find ./projects -maxdepth 1`.
 - `heading-links.svg`: terminal window bar header for `./links.sh`.
+- `footer-signature.svg`: modern animated terminal footer card with syntax-highlighted farewell code, glowing neon border, pulsing status radar, and animated energy beam.
 - `nikhil-cyber-portrait-blue.png`: source image for the ASCII portrait generator.
 - `scripts/generate_profile_art.py`: generates a custom contribution heatmap, stats card, and ASCII portrait.
 - `.github/workflows/profile-art.yml`: daily/manual workflow to update the generated SVGs.

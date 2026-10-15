@@ -198,7 +198,7 @@
 
 <div align="center">
 
-```bash
+<!-- ```bash
 $ tree -L 2 ./projects/ --dirsfirst
 📁 projects/
 ├── 🌐 full-stack/          # Web apps, scalable backends, auth, database architecture
@@ -206,14 +206,14 @@ $ tree -L 2 ./projects/ --dirsfirst
 ├── 🤖 ai-powered-tools/    # LLM agents, RAG pipelines, developer workflow enhancers
 ├── 🧰 automation-devops/   # CI/CD pipelines, containerization, custom CLI utilities
 └── 🌍 open-source/         # Public libraries, documentation, tests & feature PRs
-```
+``` -->
 
 </div>
 
 <br/>
 
 <!-- Modern Project Cards Grid -->
-<table width="100%">
+<!-- <table width="100%">
   <tr>
     <td width="50%" valign="top">
       <div align="left">
@@ -315,7 +315,7 @@ $ tree -L 2 ./projects/ --dirsfirst
       </div>
     </td>
   </tr>
-</table>
+</table> -->
 
 <br/>
 
@@ -366,7 +366,8 @@ $ tree -L 2 ./projects/ --dirsfirst
 
 <br/><br/>
 
-### `printf("Thanks for visiting. Let's build something meaningful.\\n");`
+<img src="./footer-signature.svg" width="100%" alt="printf(&quot;Thanks for visiting. Let's build something meaningful.\n&quot;);" />
 
+<br/><br/>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:3455FF,100:8A2BE2&height=110&section=footer" alt="Blue and purple footer" width="100%"/>
 </div>
