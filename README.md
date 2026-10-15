@@ -181,7 +181,7 @@
 <br/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/profile-output/profile-night-rainbow.svg" alt="3D GitHub contribution landscape" width="100%"/>
+<img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/profile-output/profile-night-view.svg" alt="3D GitHub contribution landscape" width="100%"/>
 <img src="https://raw.githubusercontent.com/NIKHIL2K5/NIKHIL2K5/output/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution snake" width="100%"/>
 </div>
 
