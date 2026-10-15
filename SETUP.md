@@ -1,7 +1,8 @@
 # Nikhil's Advanced GitHub Profile
 
 ## Package contents
-- `README.md`: terminal-style design inspired by the reference, with your existing animated typewriter header, tech stack, statistics, and contribution sections. The large portrait image has been removed so it cannot leave a huge blank panel.
+- `README.md`: terminal-style design inspired by the reference, with modern animated terminal header, waving banner, tech stack, statistics, and contribution sections.
+- `terminal-header.svg`: responsive macOS dark terminal card with commands (`whoami`, `cat mission.json`, `./status.sh`), live status, and glowing cursor.
 - `nikhil-cyber-portrait-blue.png`: source image for the ASCII portrait generator.
 - `scripts/generate_profile_art.py`: generates a custom contribution heatmap, stats card, and ASCII portrait.
 - `.github/workflows/profile-art.yml`: daily/manual workflow to update the generated SVGs.

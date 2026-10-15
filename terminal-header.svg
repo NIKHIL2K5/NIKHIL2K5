@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%">
+  <defs>
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#05080f"/>
+    </linearGradient>
+    <linearGradient id="headerBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0d1527"/>
+      <stop offset="50%" stop-color="#111c34"/>
+      <stop offset="100%" stop-color="#0d1527"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d9ff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="cyanPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+    .title { fill: #94a3b8; font-size: 12px; font-weight: 500; letter-spacing: 0.5px; }
+    .prompt-user { fill: #00d9ff; font-weight: 700; font-size: 13.5px; }
+    .prompt-sym { fill: #64748b; font-size: 13.5px; }
+    .prompt-path { fill: #a855f7; font-weight: 700; font-size: 13.5px; }
+    .prompt-dollar { fill: #f43f5e; font-weight: 700; font-size: 13.5px; }
+    .cmd { fill: #f8fafc; font-weight: 600; font-size: 13.5px; }
+    .arrow { fill: #00d9ff; font-weight: bold; font-size: 13.5px; }
+    .name { fill: #ffffff; font-weight: 700; font-size: 13.5px; }
+    .badge { fill: #38bdf8; font-weight: 600; font-size: 12.5px; }
+    .sep { fill: #475569; font-size: 12px; }
+    .val-key { fill: #fb7185; font-size: 12.5px; }
+    .val-str { fill: #a7f3d0; font-size: 12.5px; }
+    .val-bool { fill: #fbbf24; font-size: 12.5px; }
+    .msg-success { fill: #34d399; font-weight: 500; font-size: 12.5px; }
+    .cursor { fill: #00d9ff; font-size: 15px; font-weight: bold; }
+  </style>
+
+  <!-- Outer Card Frame with Gradient Border -->
+  <rect x="1.5" y="1.5" width="847" height="257" rx="12" fill="url(#terminalBg)" stroke="url(#borderGlow)" stroke-width="1.5"/>
+
+  <!-- Terminal Title Bar -->
+  <path d="M 1.5,13.5 A 12,12 0 0 1 13.5,1.5 L 836.5,1.5 A 12,12 0 0 1 848.5,13.5 L 848.5,38 L 1.5,38 Z" fill="url(#headerBg)" stroke="#1e293b" stroke-width="0.5"/>
+  <line x1="1.5" y1="38" x2="848.5" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- macOS Control Buttons -->
+  <circle cx="24" cy="20" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
+  <circle cx="44" cy="20" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
+  <circle cx="64" cy="20" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
+
+  <!-- Window Title -->
+  <text class="mono title" x="425" y="24" text-anchor="middle">⚡ nikhil@github:~ (zsh)</text>
+
+  <!-- Line 1: whoami command -->
+  <text class="mono" x="24" y="68">
+    <tspan class="prompt-user">nikhil@github</tspan>
+    <tspan class="prompt-sym">:</tspan>
+    <tspan class="prompt-path">~</tspan>
+    <tspan class="prompt-dollar">$ </tspan>
+    <tspan class="cmd">whoami</tspan>
+  </text>
+
+  <!-- Line 2: whoami response -->
+  <text class="mono" x="24" y="93">
+    <tspan class="arrow">➜ </tspan>
+    <tspan class="name">Nikhil Kumar</tspan>
+    <tspan class="sep"> · </tspan>
+    <tspan class="badge">Full-Stack Developer</tspan>
+    <tspan class="sep"> · </tspan>
+    <tspan class="badge" fill="#818cf8">Mobile Dev</tspan>
+    <tspan class="sep"> · </tspan>
+    <tspan class="badge" fill="#c084fc">AI/ML Builder</tspan>
+  </text>
+
+  <!-- Line 3: cat mission.json command -->
+  <text class="mono" x="24" y="128">
+    <tspan class="prompt-user">nikhil@github</tspan>
+    <tspan class="prompt-sym">:</tspan>
+    <tspan class="prompt-path">~</tspan>
+    <tspan class="prompt-dollar">$ </tspan>
+    <tspan class="cmd">cat mission.json</tspan>
+  </text>
+
+  <!-- Line 4: JSON response -->
+  <text class="mono" x="24" y="153">
+    <tspan class="arrow">➜ </tspan>
+    <tspan fill="#94a3b8">{ </tspan>
+    <tspan class="val-key">"passion"</tspan><tspan fill="#94a3b8">: </tspan><tspan class="val-str">"Building impactful products"</tspan><tspan fill="#94a3b8">, </tspan>
+    <tspan class="val-key">"open_to_work"</tspan><tspan fill="#94a3b8">: </tspan><tspan class="val-bool">true</tspan><tspan fill="#94a3b8">, </tspan>
+    <tspan class="val-key">"focus"</tspan><tspan fill="#94a3b8">: </tspan><tspan class="val-str">"Web3, Mobile, Applied AI"</tspan>
+    <tspan fill="#94a3b8"> }</tspan>
+  </text>
+
+  <!-- Line 5: ./status.sh command -->
+  <text class="mono" x="24" y="188">
+    <tspan class="prompt-user">nikhil@github</tspan>
+    <tspan class="prompt-sym">:</tspan>
+    <tspan class="prompt-path">~</tspan>
+    <tspan class="prompt-dollar">$ </tspan>
+    <tspan class="cmd">./status.sh</tspan>
+  </text>
+
+  <!-- Line 6: status message + blinking cursor -->
+  <text class="mono" x="24" y="213">
+    <tspan class="arrow">➜ </tspan>
+    <tspan class="msg-success">Available for freelance contracts, internships &amp; collaborative builds</tspan>
+    <tspan class="cursor"> █<animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></tspan>
+  </text>
+
+  <!-- Bottom Accent Bar -->
+  <rect x="24" y="240" width="802" height="2" rx="1" fill="url(#cyanPurple)" opacity="0.6"/>
+</svg>

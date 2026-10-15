@@ -1,20 +1,29 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2800&pause=800&color=00D9FF&center=true&vCenter=true&width=900&lines=Hey%2C+I'm+Nikhil+%F0%9F%91%8B;Full-Stack+Developer+%7C+Mobile+%7C+AI%2FML;Building+products%2C+not+just+projects;Open-Source+Contributor+%7C+Freelancer" alt="Animated introduction" />
+<!-- Waving Gradient Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:3455FF,100:8A2BE2&height=180&section=header&text=NIKHIL%20KUMAR&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Mobile%20%7C%20AI%2FML&descAlignY=60&descSize=18" width="100%" alt="Header Banner" />
 
+<!-- Modern Interactive Terminal Window Header -->
+<img src="./terminal-header.svg" width="100%" alt="nikhil@github ~ $ whoami" />
 
-<h3><code>nikhil@github ~ $ whoami</code></h3>
+<br/>
 
-<p><strong>Full-Stack Developer</strong> · <strong>Mobile App Developer</strong> · <strong>AI/ML Builder</strong> · <strong>Product Builder</strong></p>
+<!-- Modern Animated Dynamic Punchline -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Building+impactful+products%2C+not+just+projects+%F0%9F%9A%80;Turning+complex+ideas+into+clean%2C+scalable+code+%E2%9C%A8;Full-Stack+%7C+Mobile+Apps+%7C+Applied+AI%2FML+%F0%9F%92%BB;Open+Source+Contributor+%26+Freelancer+%F0%9F%8C%9F" alt="Dynamic Typing Intro" />
 
-<p>
-<a href="https://github.com/NIKHIL2K5"><img src="https://img.shields.io/badge/GitHub-NIKHIL2K5-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/nikhil2k5/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.instagram.com/nikhil2k5/"><img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-<a href="https://www.youtube.com/@NIKHIL_2K5"><img src="https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
-</p>
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=NIKHIL2K5&style=for-the-badge&color=00D9FF&label=PROFILE+VIEWS" alt="Profile views"/>
+<!-- Modern Sleek Social Badges -->
+<a href="https://github.com/NIKHIL2K5" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+<a href="mailto:knikhil2k5@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+
+<br/><br/>
+
+<!-- Profile Visitors Counter -->
+<img src="https://komarev.com/ghpvc/?username=NIKHIL2K5&style=for-the-badge&color=00D9FF&labelColor=0D1117&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
@@ -46,42 +55,37 @@ I'm **Nikhil**, a developer and product builder who enjoys taking ideas from a r
 
 <div align="center">
 
-**Frontend & UI**
+<br/>
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js and Tailwind CSS"/>
+**Frontend & UI Development**  
+<br/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vue,sass,redux&theme=dark" alt="Frontend Tech Stack" />
 
-<p>
-<img src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D" alt="Vue.js"/>
-<img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white" alt="Sass"/>
-</p>
+<br/><br/>
 
-**Backend, APIs & databases**
+**Backend, APIs & Databases**  
+<br/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres,firebase,redis,prisma&theme=dark" alt="Backend Tech Stack" />
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,postgres,firebase,redis" alt="Node.js, Express, MongoDB, MySQL, PostgreSQL, Firebase and Redis"/>
+<br/><br/>
 
-<p>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma ORM"/>
-</p>
+**Mobile Development**  
+<br/>
+<img src="https://skillicons.dev/icons?i=flutter,dart,react,androidstudio,kotlin&theme=dark" alt="Mobile Tech Stack" />
 
-**Mobile development**
+<br/><br/>
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,react" alt="Flutter, Dart and React Native"/>
+**AI / ML & Data Science**  
+<br/>
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,scikitlearn&theme=dark" alt="AI/ML Tech Stack" />
 
-<p>
-<img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" alt="Android Studio"/>
-</p>
+<br/><br/>
 
-**AI / ML & data**
+**Languages, DevOps & Tools**  
+<br/>
+<img src="https://skillicons.dev/icons?i=cpp,c,java,git,github,docker,linux,bash,vscode,postman,vercel&theme=dark" alt="DevOps and Tools" />
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,numpy,pandas" alt="Python, PyTorch, TensorFlow, NumPy and pandas"/>
-
-<p><img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/></p>
-
-**Languages, tools & deployment**
-
-<img src="https://skillicons.dev/icons?i=cpp,java,git,github,docker,vercel,vscode" alt="C++, Java, Git, GitHub, Docker, Vercel and VS Code"/>
-
-<p><img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=0D1117" alt="Render"/></p>
+<br/>
 
 </div>
 
@@ -127,10 +131,14 @@ Explore my latest work in [my repositories](https://github.com/NIKHIL2K5?tab=rep
 ## `nikhil@github ~ $ ./links.sh`
 
 <div align="center">
-<a href="https://github.com/NIKHIL2K5"><img src="https://img.shields.io/badge/GitHub-Explore_Repos-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/nikhil2k5/"><img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
-<a href="https://www.instagram.com/nikhil2k5/"><img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram" alt="Instagram"/></a>
-<a href="https://www.youtube.com/@NIKHIL_2K5"><img src="https://img.shields.io/badge/YouTube-Watch-FF0000?style=for-the-badge&logo=youtube" alt="YouTube"/></a>
+
+<a href="https://github.com/NIKHIL2K5" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/nikhil2k5/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="https://www.youtube.com/@NIKHIL_2K5" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/></a>
+<a href="mailto:knikhil2k5@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+
+<br/><br/>
 
 ### `printf("Thanks for visiting. Let's build something meaningful.\\n");`
 
