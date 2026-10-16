@@ -203,36 +203,36 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/NIKHIL2K5/codescope" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=codescope&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3" alt="codescope - Local Developer Intelligence Platform" width="100%"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=codescope&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3&cache_seconds=1800" alt="codescope - Local Developer Intelligence Platform" width="100%"/>
       </a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/NIKHIL2K5/BonaluKitchenApp" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=BonaluKitchenApp&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3" alt="BonaluKitchenApp - React Native Mobile App" width="100%"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=BonaluKitchenApp&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3&cache_seconds=1800" alt="BonaluKitchenApp - React Native Mobile App" width="100%"/>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/NIKHIL2K5/30dayChallenge-onlyusmedia" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=30dayChallenge-onlyusmedia&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3" alt="30dayChallenge-onlyusmedia - Next.js Full Stack Dashboard" width="100%"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=30dayChallenge-onlyusmedia&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3&cache_seconds=1800" alt="30dayChallenge-onlyusmedia - Next.js Full Stack Dashboard" width="100%"/>
       </a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/NIKHIL2K5/DoubtQueue" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=DoubtQueue&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3" alt="DoubtQueue - Mentor App" width="100%"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=DoubtQueue&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3&cache_seconds=1800" alt="DoubtQueue - Mentor App" width="100%"/>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/NIKHIL2K5/student-management-system" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=student-management-system&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3" alt="student-management-system - Spring Boot Backend" width="100%"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=student-management-system&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3&cache_seconds=1800" alt="student-management-system - Spring Boot Backend" width="100%"/>
       </a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/NIKHIL2K5/n8nworkflows" target="_blank">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=n8nworkflows&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3" alt="n8nworkflows - Automation Workflows" width="100%"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=NIKHIL2K5&repo=n8nworkflows&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=E6EDF3&cache_seconds=1800" alt="n8nworkflows - Automation Workflows" width="100%"/>
       </a>
     </td>
   </tr>
