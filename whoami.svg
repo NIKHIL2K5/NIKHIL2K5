@@ -66,7 +66,7 @@
   <!-- Line 2: whoami output -->
   <text class="mono" x="22" y="88">
     <tspan class="arrow">➜ </tspan>
-    <tspan class="name">Nikhil Kumar</tspan>
+    <tspan class="name">Nikhil</tspan>
     <tspan class="role-bracket"> [ </tspan>
     <tspan class="role1">Full-Stack Developer</tspan>
     <tspan class="sep"> · </tspan>
